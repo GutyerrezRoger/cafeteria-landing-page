@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* Nossas cores */
+  --color-cafe-verde: #cfe289;
+  --color-cafe-marrom: #51150a;
+  --color-cafe-rosa-claro: #fdf2f8;
+  --color-cafe-rosa-forte: #fbcfe8;
+  --color-cafe-creme: #fefdf8;
+
+  /* Nossas novas fontes! */
+  --font-titulo: "Playfair Display", serif;
+  --font-texto: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: var(--color-cafe-creme);
+  color: var(--color-cafe-marrom);
+  /* A fonte padrão do site inteiro será a DM Sans */
+  font-family: var(--font-texto);
+}
